@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Online</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="../pag-inicial/imgs/MercadoOnline.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <div id="alert-message" class="alert alert-primary" role="alert" style="display: none;">
+            Produto adicionado ao carrinho com sucesso!
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-nav-index">
+          <div class="container">
+              <a href="index.html"><img class="logo-cabecalho" src="imgs/MercadoOnline.png" alt=""></a>
+              <a class="navbar-brand" href="/pag-inicial/index.html">Mercado Online</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="/pag-inicial/index.html">Início</a>
+                      </li>
+                  
+                      <li class="nav-item">
+                          <!-- Categorias inicio -->
+                         <a class="nav-link" href="#">Categorias
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              </a>
+                               
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="../pags-bebidas/Pag-Bebidas.html">Bebidas</a>
+                                  <a class="dropdown-item" href="../Pag-congelados/Pag-congelados.html">Congelados</a>
+                                  <a class="dropdown-item" href="../pags-frutas/Pag-Frutas.html">Frutas</a>
+                                  <a class="dropdown-item" href="../Pag-HigienePESSOAL/Pag-Higiene-01.html">Higiene</a>
+                                  <a class="dropdown-item" href="../pag-padaria/Pag-Padaria.html">Padaria</a>
+                                  <a class="dropdown-item" href="../Pag-verduras-legumes/Pag-verduras.html">Verduras</a>
+                              </div>
+                          </li>
+                          
+                         </a>
+                         <!-- Categorias fim -->
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/pag-inicial/contato.html">Contato</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          
+      </nav>
+
+      <div class="container-pesquisa">
+          <div class="barra-pesquisa">
+              <input type="text" class="pesquisa-input" placeholder="Pesquisar...">
+              <button class="btn-pesquisa">&#128269;</button>
+          </div>
+          </div>
+         
+          <br>
+          <br>
+<div class="container mt-4">
+    <h1 class="text-fruit">Melão Amarelo</h1>
+    <div class="row-produtos">
+        <div class="col-md-6">
+            <img src="img-400/melao-400.png" alt="Imagem do Produto" class="product-image img-expandido">
+        </div>
+        <div class="col-md-6">
+            <p class="product-description">O Melão é rico em vitamina K, cálcio e zinco, nutrientes esses que ajudam a manter os ossos fortes e saudáveis e previnem a osteoporose. Essa fruta é considerada um calmante natural por ter vitaminas A e B, fósforo e magnésio, o que ajuda a controlar as oscilações de humor da mulher nessa fase. Perfeito para você após um dia estressante.</p>
+            <h3>R$ 7,30</h3> 
+            <p>(Un)</p>
+
+            <button class="btn btn-primary btn-expandido" id="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="col-md-6">
+                <div class="table-responsive" style="width: 100%;">
+                  <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <h2 class="">Informação Nutricional</h2>
+                      <tr>
+                        <th scope="col">Componente</th>
+                        <th scope="col">Quantidade (100g)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Valor Energético</td>
+                        <td>29,4 kcal</td>
+                      </tr>
+                      <tr>
+                        <td>Carboidratos</td>
+                        <td>7,5 g</td>
+                      </tr>
+                      <tr>
+                        <td>Proteínas</td>
+                        <td>0.7 g</td>
+                      </tr>
+                      <tr>
+                        <td>Potássio</td>
+                        <td>216 g</td>
+                      </tr>
+                      <tr>
+                        <td>Fibras</td>
+                        <td>0,3 g</td>
+                      </tr>
+                      <tr>
+                        <td>Vitamina C</td>
+                        <td>8,7 mg</td>
+                      </tr>
+                      <tr>
+                        <td>Cobre</td>
+                        <td>0 ug</td>
+                      </tr>
+                      <tr>
+                        <td>Manganês</td>
+                        <td>0,1 mg</td>
+                      </tr>
+                      <tr>
+                        <td>Magnésio</td>
+                        <td>6 mg</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+<footer class="footer-produtos texto-principal text-center py-3 ">
+    <p>&copy; 2024 Mercado Online. Todos os direitos reservados.</p>
+    <p><a href="../pag-inicial/politicas-de-privacidades.html">Política de Privacidade</a> | <a href="../pag-inicial/termos-de-uso.html">Termos de Uso</a></p>
+</footer>
+
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
